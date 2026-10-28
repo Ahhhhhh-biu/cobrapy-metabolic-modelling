@@ -1,0 +1,5 @@
+cobra==0.32.1
+numpy==2.5.4
+pandas==2.3.3
+swiglpk==5.0.13
+optlang==1.9.1

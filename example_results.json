@@ -1,0 +1,42 @@
+{
+  "status": "reference_model_demonstration",
+  "model": "e_coli_core",
+  "scale": "core_tutorial",
+  "reactions": 95,
+  "metabolites": 72,
+  "genes": 137,
+  "objective_coefficients": {
+    "Biomass_Ecoli_core": 1.0
+  },
+  "medium_uptake_caps": {
+    "EX_co2_e": 1000.0,
+    "EX_glc__D_e": 10.0,
+    "EX_h_e": 1000.0,
+    "EX_h2o_e": 1000.0,
+    "EX_nh4_e": 1000.0,
+    "EX_o2_e": 1000.0,
+    "EX_pi_e": 1000.0
+  },
+  "solver": "glpk",
+  "solver_configuration": {
+    "timeout": null,
+    "presolve": "auto",
+    "feasibility_tolerance": 1e-07,
+    "integrality_tolerance": 1e-07
+  },
+  "python": "3.12.14",
+  "versions": {
+    "cobra": "0.32.1",
+    "swiglpk": "5.0.13",
+    "optlang": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3"
+  },
+  "baseline_predicted_growth": 0.8739215069684295,
+  "pfba_growth_objective": 0.8739215069684302,
+  "max_steady_state_residual": 1.4210854715202004e-13,
+  "max_bound_violation": 0.0,
+  "numerical_tolerance": 1e-07,
+  "state_restored": true,
+  "snapshot_sha256": "69f1ce1446a469a238475220cf606fcaaea74e4b8b5c4c6ae7c58ed5db9918b1"
+}
